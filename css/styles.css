@@ -1,0 +1,47 @@
+@import 'reset.css';
+
+html {
+  font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+body {
+  padding: 25px;
+  }
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  }
+h2 {
+  font-size: 2em;
+  text-align: center;
+  }
+
+.banda {
+  width: 512px;
+  margin: 0 0 20px;
+  outline: solid 3px red;
+  overflow: hidden;
+  position: relative;
+  }
+  .banda .container {
+    position: relative;
+    }
+  .banda.center {
+    margin: 0 auto 20px;
+    }
+  .banda.right {
+    float: right;
+    }
+  .banda figure {
+    background: #fff;
+    }
+    .banda .before {
+      }
+    .banda .after {
+      position: absolute;
+      width: 0;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      overflow: hidden;
+      }
